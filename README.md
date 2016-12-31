@@ -11,19 +11,18 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+	<DifficultyDef>
+		<defName>Impossible</defName>
+		<label>☠ &lt;b&gt;&lt;color=#800000&gt;Impossible&lt;/color&gt;&lt;/b&gt;</label>
+		<description>Impossible I tell you, Please believe me!\n\nImpossible Mode Attributes\n✶ 4x the Enemies\n✶ 40% Market Value\n✶ 40% Crop Yield\n✶ Permanent -13 Colonist Mood Buff.\n\nLet us see how well you fair against some of the worse odds known to man?</description>
+    <difficulty>7</difficulty>
+    <threatScale>4</threatScale>
+		<colonistMoodOffset>-13</colonistMoodOffset>
+		<tradePriceFactorLoss>0.6</tradePriceFactorLoss>
+		<cropYieldFactor>0.4</cropYieldFactor>
+		<diseaseIntervalFactor>0.9</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
+  </DifficultyDef>
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
